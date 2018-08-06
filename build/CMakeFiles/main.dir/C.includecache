@@ -6,25 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/demonfox/Desktop/SUMMER vacation/BiTree.c
-BiTree.h
-/home/demonfox/Desktop/SUMMER vacation/BiTree.h
-stdio.h
--
-stdlib.h
--
-
-/home/demonfox/Desktop/SUMMER vacation/BiTree.h
-
 /home/demonfox/Desktop/SUMMER vacation/testP.c
 stdio.h
 -
-math.h
--
 stdlib.h
 -
-stdbool.h
--
-BiTree.h
-/home/demonfox/Desktop/SUMMER vacation/BiTree.h
 

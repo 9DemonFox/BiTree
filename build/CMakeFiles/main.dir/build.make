@@ -57,67 +57,41 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/testP.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/testP.cpp.o: ../testP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/demonfox/Desktop/SUMMER vacation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/testP.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/testP.cpp.o -c "/home/demonfox/Desktop/SUMMER vacation/testP.cpp"
+CMakeFiles/main.dir/testP.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/testP.c.o: ../testP.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/demonfox/Desktop/SUMMER vacation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/testP.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/testP.c.o   -c "/home/demonfox/Desktop/SUMMER vacation/testP.c"
 
-CMakeFiles/main.dir/testP.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/testP.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/demonfox/Desktop/SUMMER vacation/testP.cpp" > CMakeFiles/main.dir/testP.cpp.i
+CMakeFiles/main.dir/testP.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/testP.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/demonfox/Desktop/SUMMER vacation/testP.c" > CMakeFiles/main.dir/testP.c.i
 
-CMakeFiles/main.dir/testP.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/testP.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/demonfox/Desktop/SUMMER vacation/testP.cpp" -o CMakeFiles/main.dir/testP.cpp.s
+CMakeFiles/main.dir/testP.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/testP.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/demonfox/Desktop/SUMMER vacation/testP.c" -o CMakeFiles/main.dir/testP.c.s
 
-CMakeFiles/main.dir/testP.cpp.o.requires:
+CMakeFiles/main.dir/testP.c.o.requires:
 
-.PHONY : CMakeFiles/main.dir/testP.cpp.o.requires
+.PHONY : CMakeFiles/main.dir/testP.c.o.requires
 
-CMakeFiles/main.dir/testP.cpp.o.provides: CMakeFiles/main.dir/testP.cpp.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testP.cpp.o.provides.build
-.PHONY : CMakeFiles/main.dir/testP.cpp.o.provides
+CMakeFiles/main.dir/testP.c.o.provides: CMakeFiles/main.dir/testP.c.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testP.c.o.provides.build
+.PHONY : CMakeFiles/main.dir/testP.c.o.provides
 
-CMakeFiles/main.dir/testP.cpp.o.provides.build: CMakeFiles/main.dir/testP.cpp.o
-
-
-CMakeFiles/main.dir/BiTree.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/BiTree.cpp.o: ../BiTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/demonfox/Desktop/SUMMER vacation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/BiTree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/BiTree.cpp.o -c "/home/demonfox/Desktop/SUMMER vacation/BiTree.cpp"
-
-CMakeFiles/main.dir/BiTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/BiTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/demonfox/Desktop/SUMMER vacation/BiTree.cpp" > CMakeFiles/main.dir/BiTree.cpp.i
-
-CMakeFiles/main.dir/BiTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/BiTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/demonfox/Desktop/SUMMER vacation/BiTree.cpp" -o CMakeFiles/main.dir/BiTree.cpp.s
-
-CMakeFiles/main.dir/BiTree.cpp.o.requires:
-
-.PHONY : CMakeFiles/main.dir/BiTree.cpp.o.requires
-
-CMakeFiles/main.dir/BiTree.cpp.o.provides: CMakeFiles/main.dir/BiTree.cpp.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/BiTree.cpp.o.provides.build
-.PHONY : CMakeFiles/main.dir/BiTree.cpp.o.provides
-
-CMakeFiles/main.dir/BiTree.cpp.o.provides.build: CMakeFiles/main.dir/BiTree.cpp.o
+CMakeFiles/main.dir/testP.c.o.provides.build: CMakeFiles/main.dir/testP.c.o
 
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/testP.cpp.o" \
-"CMakeFiles/main.dir/BiTree.cpp.o"
+"CMakeFiles/main.dir/testP.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/testP.cpp.o
-main: CMakeFiles/main.dir/BiTree.cpp.o
+main: CMakeFiles/main.dir/testP.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/demonfox/Desktop/SUMMER vacation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/demonfox/Desktop/SUMMER vacation/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,8 +99,7 @@ CMakeFiles/main.dir/build: main
 
 .PHONY : CMakeFiles/main.dir/build
 
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/testP.cpp.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/BiTree.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/testP.c.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 

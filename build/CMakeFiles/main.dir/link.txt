@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/main.dir/testP.cpp.o CMakeFiles/main.dir/BiTree.cpp.o  -o main 
+/usr/bin/cc  -O0 -Wall -g -ggdb -std=c99  -rdynamic CMakeFiles/main.dir/testP.c.o  -o main 

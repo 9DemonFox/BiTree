@@ -123,59 +123,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-BiTree.o: BiTree.cpp.o
-
-.PHONY : BiTree.o
-
-# target to build an object file
-BiTree.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/BiTree.cpp.o
-.PHONY : BiTree.cpp.o
-
-BiTree.i: BiTree.cpp.i
-
-.PHONY : BiTree.i
-
-# target to preprocess a source file
-BiTree.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/BiTree.cpp.i
-.PHONY : BiTree.cpp.i
-
-BiTree.s: BiTree.cpp.s
-
-.PHONY : BiTree.s
-
-# target to generate assembly for a file
-BiTree.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/BiTree.cpp.s
-.PHONY : BiTree.cpp.s
-
-testP.o: testP.cpp.o
+testP.o: testP.c.o
 
 .PHONY : testP.o
 
 # target to build an object file
-testP.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testP.cpp.o
-.PHONY : testP.cpp.o
+testP.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testP.c.o
+.PHONY : testP.c.o
 
-testP.i: testP.cpp.i
+testP.i: testP.c.i
 
 .PHONY : testP.i
 
 # target to preprocess a source file
-testP.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testP.cpp.i
-.PHONY : testP.cpp.i
+testP.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testP.c.i
+.PHONY : testP.c.i
 
-testP.s: testP.cpp.s
+testP.s: testP.c.s
 
 .PHONY : testP.s
 
 # target to generate assembly for a file
-testP.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testP.cpp.s
-.PHONY : testP.cpp.s
+testP.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testP.c.s
+.PHONY : testP.c.s
 
 # Help Target
 help:
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... edit_cache"
-	@echo "... BiTree.o"
-	@echo "... BiTree.i"
-	@echo "... BiTree.s"
 	@echo "... testP.o"
 	@echo "... testP.i"
 	@echo "... testP.s"
