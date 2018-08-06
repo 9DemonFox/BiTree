@@ -8,24 +8,32 @@ typedef struct BTNode{
     struct BTNode* Rchild;
 }BTNode;
 
+
 int NodeIndex;
-void createBiTree(BTNode *T,char s[]);
-void createNode(BTNode *T,char s[]);
+void createBiTree(BTNode **T,char s[]);
+void createNode(BTNode **T,char s[]);
 
 
 int main(){
-    
+    BTNode *Bitree;
+    char s[]={"ab##c##"};
+    createBiTree(&Bitree,s);
+    printf("%c,%c\n",Bitree->data,Bitree->Lchild->data);
 }
 
 
-void createBiTree(BTNode *T,char s[]){
+void createBiTree(BTNode **T,char s[]){
     NodeIndex=0;
+    createNode(&*T,s);
+}
+
+void createNode(BTNode **T,char s[]){
     if(s[NodeIndex]=='#')T=NULL;
     else{
-        T=(BTNode*)malloc(sizeof(BTNode));
-        T->data=s[NodeIndex];
+        (*T)=(BTNode*)malloc(sizeof(BTNode));
+        (*T)->data=s[NodeIndex];
         NodeIndex++;
-        createBiTree(T->Lchild,s);
-        createBiTree(T->Rchild,s);
+        createNode(&(*T)->Lchild,s);
+        createNode(&(*T)->Rchild,s);
     }
 }

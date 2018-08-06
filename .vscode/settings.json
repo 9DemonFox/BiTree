@@ -3,6 +3,7 @@
         "math.h": "c",
         "stdio.h": "c",
         "bitree.h": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "string_view": "c"
     }
 }
