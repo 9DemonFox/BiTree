@@ -1,0 +1,3 @@
+/home/demonfox/Desktop/SUMMER vacation/build/CMakeFiles/rebuild_cache.dir
+/home/demonfox/Desktop/SUMMER vacation/build/CMakeFiles/main.dir
+/home/demonfox/Desktop/SUMMER vacation/build/CMakeFiles/edit_cache.dir

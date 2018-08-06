@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/demonfox/Desktop/SUMMER vacation/BiTree.cpp
+BiTree.h
+/home/demonfox/Desktop/SUMMER vacation/BiTree.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/demonfox/Desktop/SUMMER vacation/BiTree.h
+
+/home/demonfox/Desktop/SUMMER vacation/testP.cpp
+iostream
+-
+BiTree.h
+/home/demonfox/Desktop/SUMMER vacation/BiTree.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/main.dir/testP.cpp.o CMakeFiles/main.dir/BiTree.cpp.o  -o main 
