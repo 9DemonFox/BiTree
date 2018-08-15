@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/demonfox/Desktop/SUMMER vacation/testP.c" "/home/demonfox/Desktop/SUMMER vacation/build/CMakeFiles/main.dir/testP.c.o"
+  "/home/demonfox/Desktop/IDE/BiTree/BiTree/testP.c" "/home/demonfox/Desktop/IDE/BiTree/BiTree/build/CMakeFiles/main.dir/testP.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
